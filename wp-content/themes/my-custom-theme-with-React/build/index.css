@@ -1,0 +1,134 @@
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/styles/main.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+.example-react-component {
+  margin: 15px 0;
+  background-color: #2df175;
+  color: #FFF;
+  padding: 20px;
+  border-radius: 5px;
+}
+.example-react-component h1 {
+  font-weight: normal;
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+.example-react-component p {
+  margin: 0;
+  font-size: 0.88rem;
+}
+
+html, body {
+  background-color: #a28edb;
+}
+
+body {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 520px) {
+  body {
+    padding: 20px;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    padding: 60px;
+    font-size: 1.2rem;
+  }
+}
+
+a:link, a:visited {
+  color: #2df175;
+}
+
+a:hover {
+  color: #ff0077;
+}
+
+.site-header {
+  background-color: rgb(251, 233, 236);
+  padding: 30px;
+  font-size: 40px;
+  align-items: center;
+}
+
+header .link-dark {
+  color: rgb(48, 48, 56);
+}
+header .link-dark:hover {
+  color: rgb(48, 48, 56);
+  opacity: 0.6;
+}
+header .link-dark:focus {
+  color: rgb(12, 27, 13);
+}
+
+footer {
+  background-color: rgb(255, 192, 217);
+  padding: 70px;
+}
+
+.bg {
+  background-color: yellowgreen;
+}
+
+/* Image Styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-item {
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px grey;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.post-item:hover {
+  box-shadow: 5px 5px 5px rgb(75, 74, 74);
+  background-color: #f3eded;
+  transition: 0.25s ease-in-out;
+}
+
+.the_title a {
+  color: darkblue;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.meta-details {
+  color: rgb(48, 48, 56);
+  font-size: 18px;
+}
+.meta-details a {
+  color: rgb(69, 53, 244);
+}
+
+.generic-content p a {
+  color: darkblue;
+}
+
+.generic-content {
+  font-size: 20px;
+}
+
+.widget_block {
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px grey;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 20px;
+}
+.widget_block ul li a {
+  color: rgb(37, 37, 134);
+}
+
+/*# sourceMappingURL=index.css.map*/

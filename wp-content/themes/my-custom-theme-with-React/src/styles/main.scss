@@ -1,0 +1,131 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'example-react-component.scss';
+
+html, body {
+  background-color: #a28edb;
+}
+
+body {
+  color: #333;
+  font-family: sans-serif;
+  font-size: .9rem;
+  @include atSmall {
+    padding: 20px;
+    font-size: 1.1rem;
+  }
+  @include atMedium {
+    padding: 60px;
+    font-size: 1.2rem;
+  }
+}
+
+a:link, a:visited {
+  color: $primaryColor;
+}
+
+a:hover {
+  color: $secondaryColor;
+}
+
+// HEADER
+
+.site-header {
+    background-color: rgb(251, 233, 236);
+    padding: 30px;
+    font-size: 40px;
+    align-items: center;
+}
+
+header {
+  .link-dark {
+    color: rgb(48, 48, 56);
+  }
+
+  .link-dark:hover {
+    color: rgb(48, 48, 56);
+    opacity: 0.6;
+  }
+  
+  .link-dark:focus {
+    color: rgb(12, 27, 13);
+  }
+}
+
+// FOOTER
+
+footer {
+  background-color: rgb(255, 192, 217);
+  padding: 70px;
+}
+
+// City Lit Functional Component  
+
+.bg {
+  background-color: yellowgreen;
+}
+
+
+/* Image Styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+//POST
+
+.post-item {
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px grey;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.post-item:hover {
+  box-shadow: 5px 5px 5px rgb(75, 74, 74);
+  background-color: #f3eded;
+  transition: .25s ease-in-out;
+}
+
+// Links
+.the_title a {
+  color: darkblue;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.meta-details {
+  color: rgb(48, 48, 56);
+  font-size: 18px;
+  a {
+    color: rgb(69, 53, 244);
+  }
+}
+
+.generic-content p a {
+  color: darkblue;
+}
+
+.generic-content {
+  font-size: 20px;
+}
+
+// Widgets
+
+  // Sidebar
+  .widget_block {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 20px;
+    ul li {
+      a {
+        color: rgb(37, 37, 134);
+      }
+    }
+  }
